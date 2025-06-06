@@ -68,7 +68,8 @@ The navigation is reimagined for mobile, with a hamburger menu and touch-friendl
 Typography:
 The site employs Montserrat for modern clarity and Playfair Display for classic elegance, reinforcing the luxury brand image.
 
-Summary
+Summary;
+
 The Renita Luxe site blends a refined color palette, responsive grid logic, and creative UI enhancements to deliver a digital experience worthy of a five-star hotel. Every detail—from interactive carousels to tactile card layouts—was designed to evoke comfort, exclusivity, and authentic Kenyan luxury.
 
 
