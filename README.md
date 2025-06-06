@@ -1,4 +1,6 @@
-Renita Luxe Website 
+Renita Luxe Website ;
+
+
 Welcome to the Renita Luxe Hotel website! This document explains the design system, responsive logic, and creative choices that shape the site’s unique luxury experience.
 
 Color System
