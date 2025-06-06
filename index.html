@@ -1,0 +1,911 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Renita Luxe Hotel | Luxury Accommodations</title>
+
+    <head>
+   <link rel ="stylesheet" href="css/style.css">     
+  <!-- Mobile Viewport Meta -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  
+  <!-- Font Awesome for Hamburger Icon -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  
+  <!-- Google Fonts (Montserrat for luxury feel) -->
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&display=swap" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    <script src="js/karen.js" defer></script>
+</head>
+<body>
+    
+
+   <!-- Updated Header Section -->
+<!-- Elegant Card-Style Header -->
+<header class="luxe-card-header">
+  <div class="header-card">
+    <!-- Left Navigation -->
+    <nav class="nav-left">
+      <ul>
+        <li><a href="#" class="nav-link home-link">HOME</a></li>
+        <li><a href="#about" class="nav-link">ABOUT</a></li>
+        <li><a href="#rooms" class="nav-link">ROOMS</a></li>
+      </ul>
+    </nav>
+    
+    <!-- Centered Logo Card -->
+    <div class="logo-card">
+      <img src="assets/renita.jpg" alt="Renita Luxe Hotel" class="logo-img">
+      <div class="logo-text">
+        <div class="logo-main">RENITA LUXE</div>
+        <div class="logo-divider"></div>
+        <div class="logo-sub">HOTEL</div>
+      </div>
+    </div>
+    
+    <!-- Right Navigation -->
+    <nav class="nav-right">
+      <ul>
+        <li><a href="#amenities" class="nav-link">AMENITIES</a></li>
+        <li><a href="#guest-reviews" class="nav-link">REVIEWS</a></li>
+        <li><a href="#contact" class="nav-link">CONTACT</a></li>
+      </ul>
+    </nav>
+  </div>
+  <!-- Mobile Toggle Button -->
+<button class="mobile-menu-toggle" aria-label="Menu">
+  <i class="fas fa-bars"></i>
+</button>
+
+<!-- Mobile Menu (Hidden by Default) -->
+<div class="mobile-menu">
+  <ul>
+    <li><a href="#" class="nav-link">HOME</a></li>
+    <li><a href="#about" class="nav-link">ABOUT</a></li>
+    <li><a href="#rooms" class="nav-link">ROOMS</a></li>
+    <li><a href="#amenities" class="nav-link">AMENITIES</a></li>
+    <li><a href="#guest-reviews" class="nav-link">REVIEWS</a></li>
+    <li><a href="#contact" class="nav-link">CONTACT</a></li>
+  </ul>
+</div>
+</header>
+
+    <!-- Card-Style Hero Section -->
+<section class="hero-card">
+  <div class="hero-card-container">
+    <div class="hero-image-wrapper">
+      <img src="assets/background.avif" alt="Renita Luxe Hotel" class="hero-image">
+      <div class="image-overlay"></div>
+    </div>
+    
+    <div class="hero-card-content">
+      <h1>Experience Unparalleled Luxury</h1>
+      <p class="hero-subtitle">Discover the perfect blend of comfort and elegance at Renita Luxe Hotel, where every detail is crafted for your pleasure.</p>
+      
+      <div class="btn-container">
+        <a href="#rooms" class="btn btn-primary">
+          <span>Explore Rooms</span>
+          <i class="fas fa-chevron-right"></i>
+        </a>
+        <a href="#" class="btn btn-outline">
+          <span>Book Your Stay</span>
+          <i class="fas fa-calendar-check"></i>
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+  <!-- Card-Style About Section with Icon Carousel -->
+<section id="about" class="about-section">
+    <div class="about-container">
+        <!-- Left Side - Text Content -->
+        <div class="about-header">
+            <h2>Welcome to Renita Luxe</h2>
+            <p class="subtitle">From Vision to Experience</p>
+            <p class="description">We Craft Your Perfect Stay with authentic Kenyan hospitality and internationally trained staff.</p>
+            
+            <!-- Carousel Controls -->
+            <div class="icon-carousel-controls">
+                <button class="icon-prev"><i class="fas fa-chevron-left"></i></button>
+                <button class="icon-next"><i class="fas fa-chevron-right"></i></button>
+            </div>
+        </div>
+        
+        <!-- Right Side - Icon Carousel -->
+        <div class="icon-carousel">
+            <!-- Your Original Icons in Carousel Format -->
+            <div class="icon-carousel-track">
+                <!-- Card 1 -->
+                <div class="icon-card active">
+                    <div class="card-icon">
+                        <i class="fas fa-medal"></i>
+                    </div>
+                    <h3>Hospitality Excellence</h3>
+                    <p>Five-star rated luxury with authentic Kenyan warmth</p>
+                </div>
+                
+                <!-- Card 2 -->
+                <div class="icon-card">
+                    <div class="card-icon">
+                        <i class="fas fa-building"></i>
+                    </div>
+                    <h3>Property Overview</h3>
+                    <p>120 rooms & suites • 3 restaurants • Infinity pool</p>
+                </div>
+                
+                <!-- Card 3 -->
+                <div class="icon-card">
+                    <div class="card-icon">
+                        <i class="fas fa-spa"></i>
+                    </div>
+                    <h3>Luxury & Wellness</h3>
+                    <p>Traditional Kenyan treatments with modern spa tech</p>
+                </div>
+                
+                <!-- Card 4 -->
+                <div class="icon-card">
+                    <div class="card-icon">
+                        <i class="fas fa-heart"></i>
+                    </div>
+                    <h3>Guest Experiences</h3>
+                    <p>"Transformed our honeymoon into pure magic"</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Trusted Partners Section -->
+<section class="partners-section">
+    <div class="section-header">
+        <h2>Our Trusted Partners</h2>
+        <p>Collaborating with the finest to enhance your luxury experience</p>
+    </div>
+
+    <div class="partners-carousel">
+        <!-- Partner 1 -->
+        <div class="partner-card">
+            <img src="assets/safari.jpg" alt="Safari Airlines" class="partner-logo">
+            <div class="partner-overlay">
+                <h4>Safari Airlines</h4>
+                <p>Exclusive flight packages</p>
+            </div>
+        </div>
+        
+        <!-- Partner 2 -->
+        <div class="partner-card">
+            <img src="assets/serena.jpg" alt="Serene Spa" class="partner-logo">
+            <div class="partner-overlay">
+                <h4>Serena Spa</h4>
+                <p>Premium wellness partner</p>
+            </div>
+        </div>
+        
+        <!-- Partner 3 -->
+        <div class="partner-card">
+            <img src="assets/tours.jpg" alt="Kenya Tours" class="partner-logo">
+            <div class="partner-overlay">
+                <h4>Kenya Tours</h4>
+                <p>Curated safari experiences</p>
+            </div>
+        </div>
+        
+        <!-- Partner 4 -->
+        <div class="partner-card">
+            <img src="assets/gourmet.jpg" alt="Gourmet Delights" class="partner-logo">
+            <div class="partner-overlay">
+                <h4>Gourmet Delights</h4>
+                <p>Fine dining suppliers</p>
+            </div>
+        </div>
+        
+        <!-- Partner 5 -->
+        <div class="partner-card">
+            <img src="assets/luxe.jpg" alt="Luxe Autos" class="partner-logo">
+            <div class="partner-overlay">
+                <h4>Luxe Autos</h4>
+                <p>Premium transportation</p>
+            </div>
+        </div>
+    </div>
+</section>
+  
+<!-- Fully Optimized Rooms Section -->
+<section id="rooms" class="rooms-section">
+    <div class="rooms-container">
+        <!-- Left Side - Text Content -->
+        <div class="rooms-text-content">
+            <h2>OUR LUXURIOUS ACCOMMODATIONS</h2>
+            <p class="section-subtitle">Experience unparalleled comfort in our exquisite rooms and suites</p>
+            
+            <div class="rooms-description">
+                <p>Each of our meticulously designed rooms blends contemporary luxury with timeless elegance, offering a haven of comfort and style.</p>
+                
+                <div class="rooms-highlights">
+                    <div class="highlight-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Premium bedding with 400-thread-count linens</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>Smart room technology with personalized controls</span>
+                    </div>
+                    <div class="highlight-item">
+                        <i class="fas fa-check-circle"></i>
+                        <span>24/7 concierge service</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Right Side - Carousel -->
+        <div class="rooms-carousel-wrapper">
+            <div class="rooms-carousel">
+                <!-- Deluxe Room -->
+                <div class="room-card active">
+                    <div class="card-image-container">
+                        <img src="assets/deluxe.jpg" alt="Deluxe Room" class="card-image">
+                        <div class="card-badge">MOST POPULAR</div>
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Deluxe Room</h3>
+                        <p class="room-description">Spacious comfort with premium amenities and stunning city views. Perfect for business travelers and couples.</p>
+                        <div class="card-footer">
+                            <div class="price-container">
+                                <span class="price">Ksh 5,000</span>
+                                <span class="price-label">per night</span>
+                            </div>
+                            <button class="book-now-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Executive Suite -->
+                <div class="room-card">
+                    <div class="card-image-container">
+                        <img src="assets/executive.jpg" alt="Executive Suite" class="card-image">
+                        <div class="card-badge">STANDARD</div>
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Executive Suite</h3>
+                        <p class="room-description">Enhanced space with separate living area, ideal for extended stays and executive travelers.</p>
+                        <div class="card-footer">
+                            <div class="price-container">
+                                <span class="price">Ksh 8,500</span>
+                                <span class="price-label">per night</span>
+                            </div>
+                            <button class="book-now-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Presidential Suite -->
+                <div class="room-card">
+                    <div class="card-image-container">
+                        <img src="assets/presidential.jpg" alt="Presidential Suite" class="card-image">
+                        <div class="card-badge premium">PREMIUM</div>
+                        <div class="image-overlay"></div>
+                    </div>
+                    <div class="card-content">
+                        <h3>Presidential Suite</h3>
+                        <p class="room-description">The ultimate in luxury with panoramic views and premium services for discerning guests.</p>
+                        <div class="card-footer">
+                            <div class="price-container">
+                                <span class="price">Ksh 15,000</span>
+                                <span class="price-label">per night</span>
+                            </div>
+                            <button class="book-now-btn">Book Now</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Carousel Controls -->
+            <div class="carousel-controls">
+                <button class="control-btn prev-btn">
+                    <i class="fas fa-chevron-left"></i>
+                </button>
+                <div class="carousel-dots">
+                    <span class="dot active"></span>
+                    <span class="dot"></span>
+                    <span class="dot"></span>
+                </div>
+                <button class="control-btn next-btn">
+                    <i class="fas fa-chevron-right"></i>
+                </button>
+            </div>
+        </div>
+    </div>
+</section>
+
+   <!-- Amenities Section with Scrollable Cards -->
+<section id="amenities" class="amenities">
+    <div class="section-title">
+        <h2>HOTEL AMENITIES</h2>
+        <p class="subtitle">ENJOY OUR WORLD-CLASS FACILITIES DESIGNED FOR YOUR<br>RELAXATION AND CONVENIENCE</p>
+    </div>
+    
+    <div class="amenities-container">
+        <button class="scroll-btn left-btn" aria-label="Scroll left">
+            <i class="fas fa-chevron-left"></i>
+        </button>
+        
+        <div class="amenities-scroll">
+            <div class="amenities-grid">
+                <!-- Restaurant -->
+                <div class="amenity-card">
+                    <div class="amenity-img">
+                        <img src="assets/restaurant.jpg" alt="Gourmet Restaurant">
+                    </div>
+                    <div class="amenity-content">
+                        <h3>Gourmet Restaurant</h3>
+                        <p>Experience fine dining with our award-winning chef's seasonal creations in an elegant atmosphere.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Bar -->
+                <div class="amenity-card">
+                    <div class="amenity-img">
+                        <img src="assets/bar.jpg" alt="Elegant Bar">
+                    </div>
+                    <div class="amenity-content">
+                        <h3>Elegant Bar</h3>
+                        <p>Unwind with craft cocktails and premium spirits in our sophisticated lounge with live music evenings.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Swimming Pool -->
+                <div class="amenity-card">
+                    <div class="amenity-img">
+                        <img src="assets/swimming.jpg" alt="Infinity Pool">
+                    </div>
+                    <div class="amenity-content">
+                        <h3>Infinity Pool</h3>
+                        <p>Relax in our heated infinity pool with stunning city views and premium poolside service.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Sauna -->
+                <div class="amenity-card">
+                    <div class="amenity-img">
+                        <img src="assets/sauna.jpg" alt="Luxury Spa & Sauna">
+                    </div>
+                    <div class="amenity-content">
+                        <h3>Luxury Spa & Sauna</h3>
+                        <p>Rejuvenate with our signature treatments, steam rooms, and premium sauna facilities.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Conference Room -->
+                <div class="amenity-card">
+                    <div class="amenity-img">
+                        <img src="assets/conference.jpg" alt="Conference Facilities">
+                    </div>
+                    <div class="amenity-content">
+                        <h3>Conference Facilities</h3>
+                        <p>Host professional events in our versatile meeting rooms with cutting-edge technology.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+
+                <!-- Gym -->
+                <div class="amenity-card">
+                    <div class="amenity-img">
+                        <img src="assets/gym.jpg" alt="State-of-the-Art Gym">
+                    </div>
+                    <div class="amenity-content">
+                        <h3>State-of-the-Art Gym</h3>
+                        <p>Maintain your routine with our premium equipment, personal trainers, and wellness classes.</p>
+                        <a href="#" class="btn">Learn More</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        
+        <button class="scroll-btn right-btn" aria-label="Scroll right">
+            <i class="fas fa-chevron-right"></i>
+        </button>
+    </div>
+</section>
+
+<section id="guest-reviews" class="reviews-section">
+  <div class="reviews-container">
+    <div class="reviews-carousel-wrapper">
+      <h2 class="section-title">GUEST REVIEWS</h2>
+      
+      <div class="reviews-carousel">
+        <div class="review-groups-container">
+          <!-- Review Group 1 -->
+          <div class="review-group" data-index="0">
+            <div class="review-card">
+              <blockquote class="review-text">
+                "Loved the spa and rooftop views. Minor check-in delay, but great stay"
+              </blockquote>
+              <div class="review-author">
+                <span class="author-name">— Michelle K., Nairobi</span>
+              </div>
+            </div>
+            
+            <div class="review-card">
+              <blockquote class="review-text">
+                "Staff were amazing. The food? Even better. Worth every shilling."
+              </blockquote>
+              <div class="review-author">
+                <span class="author-name">— David M., Mombasa</span>
+              </div>
+            </div>
+            
+            <div class="review-card">
+              <blockquote class="review-text">
+                "Chic, quiet, and close to everything. A hidden gem in the city!"
+              </blockquote>
+              <div class="review-author">
+                <span class="author-name">— Cynthia R., Kampala</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Review Group 2 -->
+          <div class="review-group" data-index="1">
+            <div class="review-card">
+              <blockquote class="review-text">
+                "Fast Wi-Fi, comfy beds, and a quiet vibe—ideal for business trips."
+              </blockquote>
+              <div class="review-author">
+                <span class="author-name">— Hassan J., Arusha</span>
+              </div>
+            </div>
+            
+            <div class="review-card">
+              <blockquote class="review-text">
+                "Incredible service and spotless rooms. I felt pampered every second!"
+              </blockquote>
+              <div class="review-author">
+                <span class="author-name">— Rachel N., Kisumu</span>
+              </div>
+            </div>
+            
+            <div class="review-card">
+              <blockquote class="review-text">
+                "Modern rooms and great ambiance. I'll definitely return!"
+              </blockquote>
+              <div class="review-author">
+                <span class="author-name">— Brian O., Eldoret</span>
+              </div>
+            </div>
+          </div>
+          
+          <!-- Review Group 3 -->
+          <div class="review-group"  data-index="2">
+            <div class="review-card">
+              <blockquote class="review-text">
+                "The attention to detail was remarkable. Truly a five-star experience."
+              </blockquote>
+              <div class="review-author">
+                <span class="author-name">— Sarah T., Dubai</span>
+              </div>
+            </div>
+            
+            <div class="review-card">
+              <blockquote class="review-text">
+                "Best hotel in the city! The concierge recommendations were perfect."
+              </blockquote>
+              <div class="review-author">
+                <span class="author-name">— James P., London</span>
+              </div>
+            </div>
+            
+            <div class="review-card">
+              <blockquote class="review-text">
+                "Wish we could have stayed longer. Everything exceeded our expectations."
+              </blockquote>
+              <div class="review-author">
+                <span class="author-name">— Amina W., Dar es Salaam</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+      
+      <!-- Carousel Navigation -->
+      <div class="reviews-navigation">
+        <button class="nav-arrow prev-arrow">
+          <i class="fas fa-chevron-left"></i>
+        </button>
+        <div class="dots-container">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <button class="nav-arrow next-arrow">
+          <i class="fas fa-chevron-right"></i>
+        </button>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Dynamic FAQ Section -->
+<section id="faq" class="faq-section">
+    <div class="faq-container">
+        <!-- Left Side - Visual/Header -->
+        <div class="faq-header">
+            <h2 class="section-title">FREQUENTLY ASKED QUESTIONS</h2>
+            <div class="faq-image">
+                <img src="assets/reception.jpg" alt="Hotel Reception" loading="lazy">
+                <div class="image-overlay"></div>
+                <div class="faq-cta">
+                    <p>Can't find your question?</p>
+                    <a href="#contact" class="cta-button">Contact Us</a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- Right Side - Interactive FAQ -->
+        <div class="faq-accordion">
+            <!-- FAQ Item 1 -->
+            <div class="faq-item active">
+                <button class="faq-question">
+                    <span>What are your check-in and check-out times?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Check-in time is at <strong>2:00 PM</strong> and check-out is by <strong>11:00 AM</strong>. Early check-in and late check-out may be available upon request, subject to availability and additional charges.</p>
+                </div>
+            </div>
+            
+            <!-- FAQ Item 2 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Do you offer airport transportation?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes, we provide <strong>24/7 airport transfers</strong> at an additional cost. Please arrange this service at least 24 hours in advance through our concierge.</p>
+                </div>
+            </div>
+            
+            <!-- FAQ Item 3 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Is the hotel pet-friendly?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>We welcome pets up to <strong>15kg</strong> in designated rooms. A <strong>Ksh 2,500</strong> nightly pet fee applies, including a pet bed and food bowl. Please notify us in advance.</p>
+                </div>
+            </div>
+            
+            <!-- FAQ Item 4 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>What cancellation policy applies to my reservation?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Standard reservations can be cancelled <strong>48 hours</strong> prior to arrival without penalty. Non-refundable rates are available at a 15% discount but cannot be modified.</p>
+                </div>
+            </div>
+            
+            <!-- FAQ Item 5 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Do you have facilities for business meetings?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Our <strong>executive business center</strong> includes three meeting rooms (capacity 10-50 people) with AV equipment, high-speed internet, and catering services. Day passes are available for non-guests.</p>
+                </div>
+            </div>
+            
+            <!-- FAQ Item 6 -->
+            <div class="faq-item">
+                <button class="faq-question">
+                    <span>Is there parking available?</span>
+                    <i class="fas fa-chevron-down"></i>
+                </button>
+                <div class="faq-answer">
+                    <p>Yes we offer<strong> free secure parking </strong>for all our guests. Valet service is also available upon request.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<!-- Simplified Card-Style Booking Section -->
+<section id="booking" class="booking-section">
+    <div class="section-header">
+        <h2>Reserve Your Luxury Stay</h2>
+        <p>Select your preferred dates and room type</p>
+    </div>
+
+    <div class="booking-card">
+        <!-- Room Type Selector -->
+        <div class="room-type-selector">
+            <div class="room-option active" data-room="deluxe">
+                <img src="assets/deluxe.jpg" alt="Deluxe Room">
+                <div class="room-info">
+                    <h4>Deluxe Room</h4>
+                    <p>From <span class="price">Ksh 5,000</span>/night</p>
+                </div>
+            </div>
+            <div class="room-option" data-room="executive">
+                <img src="assets/executive.jpg" alt="Executive Suite">
+                <div class="room-info">
+                    <h4>Executive Suite</h4>
+                    <p>From <span class="price">Ksh 8,500</span>/night</p>
+                </div>
+            </div>
+            <div class="room-option" data-room="presidential">
+                <img src="assets/presidential.jpg" alt="Presidential Suite">
+                <div class="room-info">
+                    <h4>Presidential Suite</h4>
+                    <p>From <span class="price">Ksh 15,000</span>/night</p>
+                </div>
+            </div>
+        </div>
+
+        <!-- Booking Form -->
+        <form class="booking-form">
+            <div class="form-grid">
+                <div class="form-group">
+                    <label><i class="far fa-calendar-alt"></i> Check-In</label>
+                    <input type="date" id="check-in" required>
+                </div>
+                <div class="form-group">
+                    <label><i class="far fa-calendar-alt"></i> Check-Out</label>
+                    <input type="date" id="check-out" required>
+                </div>
+                <div class="form-group">
+                    <label><i class="fas fa-user-friends"></i> Guests</label>
+                    <select>
+                        <option>1 Adult</option>
+                        <option selected>2 Adults</option>
+                        <option>3 Adults</option>
+                        <option>2 Adults + 1 Child</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="amenities-highlight">
+                <div class="amenity">
+                    <i class="fas fa-wifi"></i> Free WiFi
+                </div>
+                <div class="amenity">
+                    <i class="fas fa-utensils"></i> Breakfast Included
+                </div>
+                <div class="amenity">
+                    <i class="fas fa-swimming-pool"></i> Pool Access
+                </div>
+            </div>
+
+            <button type="submit" class="book-now-btn">
+                <i class="fas fa-lock"></i> Book Now
+            </button>
+
+            <p class="cancellation-policy">
+                <i class="fas fa-shield-alt"></i> Free cancellation until 48 hours before arrival
+            </p>
+        </form>
+    </div>
+</section>
+
+<!-- Premium Community Section -->
+<section class="renita-community-luxe">
+    <div class="luxe-container">
+        <!-- Content Column -->
+        <div class="luxe-content">
+            <div class="luxe-content-inner">
+                <div class="luxe-logo-mark">
+                    <svg viewBox="0 0 100 100" class="r-logo">
+                        <path d="M70,30 L70,70 L30,70 L30,30 Z" fill="none" stroke="rgba(184,134,11,0.8)" stroke-width="8"/>
+                        <path d="M50,15 L50,85 M15,50 L85,50" stroke="rgba(184,134,11,0.4)" stroke-width="3" stroke-linecap="round"/>
+                    </svg>
+                    <span>RENITA LUXE</span>
+                </div>
+                
+                <h2 class="luxe-heading">
+                    <span class="luxe-heading-line">JOIN OUR</span>
+                    <span class="luxe-heading-line">COMMUNITY</span>
+                </h2>
+                
+                <p class="luxe-subtitle">Experience exclusivity. Subscribe for curated offers, events, and the essence of Renita Luxe.</p>
+                
+                <form class="luxe-form">
+                    <div class="luxe-input-group">
+                        <input type="email" placeholder=" " required>
+                        <label>Your Email</label>
+                        <div class="luxe-input-border"></div>
+                    </div>
+                    <button type="submit" class="luxe-submit-btn">
+                        <span>SUBSCRIBE</span>
+                        <div class="luxe-btn-decoration"></div>
+                    </button>
+                </form>
+                
+                <p class="luxe-disclaimer">By subscribing, you agree to our <a href="#">Privacy Policy</a>.</p>
+            </div>
+        </div>
+        
+        <!-- Visual Column -->
+        <div class="luxe-visual">
+            <div class="luxe-image-frame">
+                <img src="assets/renita.jpg" alt="Renita Luxe Experience">
+                <div class="luxe-image-overlay"></div>
+                <div class="luxe-image-badge">
+                    <span>EXCLUSIVE</span>
+                    <div class="luxe-badge-decoration"></div>
+                </div>
+            </div>
+            <div class="luxe-visual-decoration"></div>
+        </div>
+    </div>
+</section>
+
+
+    <!-- Contact Section -->
+     <section id="contact" class="contact-section">
+        <div class="contact-container">
+            <h2 class="section-title">CONTACT US</h2>
+
+<div class="renita-contact-section">
+    <div class="renita-container">
+        <h2 class="renita-section-title">Experience Renita Luxe Hospitality</h2>
+        <p class="renita-section-subtitle">Our concierge team is delighted to assist with your inquiries and reservations</p>
+        
+        <div class="renita-contact-grid">
+            <!-- Contact Information Card -->
+            <div class="renita-contact-card">
+                <div class="renita-card-header">
+                    <h3><i class="fas fa-concierge-bell"></i> Contact Information</h3>
+                </div>
+                <div class="renita-card-body">
+                    <p>At Renita Luxe Hotel, we pride ourselves on exceptional service. Reach out to us through any of these channels:</p>
+                    
+                    <div class="renita-contact-details">
+                        <div class="renita-contact-item">
+                            <i class="fas fa-map-marker-alt"></i>
+                            <div>
+                                <h4>Location</h4>
+                                <p>14 Riverside Drive<br>Nairobi, Kenya</p>
+                            </div>
+                        </div>
+                        
+                        <div class="renita-contact-item">
+                            <i class="fas fa-phone-alt"></i>
+                            <div>
+                                <h4>Reservations</h4>
+                                <p>+254 115 960 003<br>+254 793 642 867</p>
+                            </div>
+                        </div>
+                        
+                        <div class="renita-contact-item">
+                            <i class="fas fa-envelope"></i>
+                            <div>
+                                <h4>Email</h4>
+                                <p>reservations@renitaluxe.com<br>concierge@renitaluxe.com</p>
+                            </div>
+                        </div>
+                        
+                        <div class="renita-contact-item">
+                            <i class="fas fa-clock"></i>
+                            <div>
+                                <h4>Concierge Hours</h4>
+                                <p>24/7 Service<br>Always at your disposal</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <!-- Contact Form Card -->
+            <div class="renita-contact-card">
+                <div class="renita-card-header">
+                    <h3><i class="fas fa-pen-fancy"></i> Enquiry Form</h3>
+                </div>
+                <div class="renita-card-body">
+                    <form id="renitaContactForm" class="renita-contact-form">
+                        <div class="renita-form-group">
+                            <label for="renitaName">Your Name</label>
+                            <input type="text" id="renitaName" name="name" placeholder="Enter your full name" required>
+                        </div>
+                        
+                        <div class="renita-form-group">
+                            <label for="renitaEmail">Email Address</label>
+                            <input type="email" id="renitaEmail" name="email" placeholder="your.email@example.com" required>
+                        </div>
+                        
+                        <div class="renita-form-group">
+                            <label for="renitaSubject">Subject</label>
+                            <select id="renitaSubject" name="subject">
+                                <option value="">Select enquiry type</option>
+                                <option value="reservation">Room Reservation</option>
+                                <option value="event">Event Inquiry</option>
+                                <option value="spa">Spa Services</option>
+                                <option value="dining">Restaurant Reservation</option>
+                                <option value="other">Other Inquiry</option>
+                            </select>
+                        </div>
+                        
+                        <div class="renita-form-group">
+                            <label for="renitaMessage">Your Message</label>
+                            <textarea id="renitaMessage" name="message" rows="5" placeholder="How may we assist you today?" required></textarea>
+                        </div>
+                        
+                        <button type="submit" class="renita-submit-btn">
+                            <span>Send Enquiry</span>
+                            <i class="fas fa-paper-plane"></i>
+                        </button>
+                        
+                        <div id="renitaFormStatus" class="renita-form-status"></div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Footer Section -->
+    <footer class="main-footer">
+        <div class="footer-container">
+            <!-- Footer Columns -->
+            <div class="footer-columns">
+                <!-- Column 1: Brand Info -->
+                <div class="footer-brand">
+                    <h3 class="footer-logo">RENITA LUXE</h3>
+                    <p class="footer-description">Experience unparalleled luxury at our award-winning hotel.</p>
+                </div>
+
+                <!-- Column 2: Quick Links -->
+                <div class="footer-links">
+                    <h4 class="footer-heading">EXPLORE</h4>
+                    <ul class="footer-nav">
+                        <li><a href="#" class="footer-link">Home</a></li>
+                        <li><a href="#about" class="footer-link">About</a></li>
+                        <li><a href="#rooms" class="footer-link">Rooms</a></li>
+                        <li><a href="#amenities" class="footer-link">Amenities</a></li>
+                        <li><a href="#guest-reviews" class="footer-link">Guest Reviews</a></li>
+                        <li><a href="#contact" class="footer-link">Contacts</a></li>
+                    </ul>
+                </div>
+
+                <!-- Column 3: Social Media & Newsletter -->
+                <div class="footer-social-section">
+                    <h4 class="footer-heading">FOLLOW US</h4>
+                    <div class="social-icons">
+                        <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+                        <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+                        <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+                        <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+                    </div>
+
+                    <!-- Newsletter -->
+                    <div class="newsletter">
+                        <p class="newsletter-text">Subscribe for updates</p>
+                        <form class="newsletter-form">
+                            <input type="email" placeholder="Your Email" class="newsletter-input">
+                            <button type="submit" class="newsletter-button">→</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Copyright -->
+            <div class="copyright">
+                <p class="copyright-text">© 2023 Renita Luxe Hotel. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+</body>
+</html>
